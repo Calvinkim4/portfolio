@@ -13,6 +13,20 @@
   color: white;
 }
 
+body {
+  /* background-color: #080501; */
+  width: 100%;
+  height: 100%;
+  /* background-size: cover; */
+
+}
+
+.background-img {
+  width: 100%;
+  height: auto;
+  margin-top: 100px;
+}
+
 .header {
   padding: 10px;
   height: 80px;
@@ -20,22 +34,23 @@
 }
 
 .header-name {
-  font-size: 35px;
+  font-size: 38px;
   margin: 10px;
   background-color: white;
   padding: 10px;
   float: left;
   border-radius: 5px;
+  height: 45px;
 }
 
 .header-img {
-  width: 45px;
   height: 45px;
+  width: 45px;
   margin: 10px;
   display: inline-block;
   float: right;
   z-index: 0;
-
+  color: black;
   transition: all .3s ease-in-out;
 }
 
@@ -51,4 +66,62 @@
   display: inline-block;
   float: right;
   border-radius: 5px;
+}
+
+.nav-bar {
+  margin: 20px 0;
+}
+
+.nav-bar > li {
+  list-style-type: none;
+  display: inline;
+  margin: 50px;
+  font-size: 30px;
+}
+
+li > a {
+  text-decoration: none;
+  color: black;
+  transition: all .3s ease-in-out;
+  padding: 10px;
+  border-radius: 5px;
+}
+
+li > a:hover {
+  background-color: black;
+  color: white;
+}
+
+.about-div {
+  text-align: center;
+}
+
+.component-title {
+  font-size: 40px;
+}
+
+.about-desc {
+  width: 80%;
+  font-size: 20px;
+  margin: 0 auto;
+  line-height: 2em;
+  /* animation: textchange 2s ease-in-out infinite; */
+}
+
+/* @keyframes textchange {
+  0% {color: #000000}
+  25% {color: #474242}
+  50% {color: #7D7B7B}
+  75% {color: #474242}
+  100% {color: #000000}
+} */
+
+.contact-btn {
+  padding: 0;
+}
+
+.contact-icon {
+  height: 100%;
+  width: 100%;
+  margin: 0;
 }
