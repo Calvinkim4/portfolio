@@ -4,7 +4,10 @@ import Header from './components/Header';
 import About from './components/About';
 import Contact from './components/Contact';
 import Projects from './components/Projects';
-
+import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
+import { faGithub } from '@fortawesome/free-brands-svg-icons';
+import { faLinkedin } from '@fortawesome/free-brands-svg-icons';
+import { faFileInvoice } from '@fortawesome/free-solid-svg-icons';
 
 function App() {
   return (
@@ -18,6 +21,12 @@ function App() {
       <a id="About"><About /></a>
       <a id="Projects"><Projects /></a>
       <a id="Contact"><Contact /></a>
+
+      <div className='fixed-links-div'>
+        <a href='https://github.com/Calvinkim4' target="_blank"><FontAwesomeIcon icon={faFileInvoice} className='fixed-links'size="3x" /></a>
+        <a href='https://www.linkedin.com/in/calvinkim4/' target="_blank"><FontAwesomeIcon icon={faLinkedin} className='fixed-links' size="3x" /></a>
+        <a href='https://docdro.id/E8pF5pB' target="_blank"><FontAwesomeIcon icon={faGithub} className='fixed-links' size="3x" /></a>
+      </div>
       {/* <About /> */}
       {/* <Contact /> */}
       {/* <Projects /> */}

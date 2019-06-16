@@ -9,14 +9,14 @@ class Header extends Component {
         return(
             <div className='header'>
                 <h1 className='header-name'>Calvin Kim's Portfolio</h1>
-                <div className='img-div'>
+                {/* <div className='img-div'> */}
                 {/* <FontAwesomeIcon icon={faFileInvoice} className='header-img'size="6x" />
                 <FontAwesomeIcon icon={faLinkedin} className='header-img' size="6x" />
                 <FontAwesomeIcon icon={faGithub} className='header-img' size="6x" /> */}
-                    <a href='https://github.com/Calvinkim4' target="_blank"><FontAwesomeIcon icon={faFileInvoice} className='header-img'size="3x" /></a>
-                    <a href='https://www.linkedin.com/in/calvinkim4/' target="_blank"><FontAwesomeIcon icon={faLinkedin} className='header-img' size="3x" /></a>
-                    <a href='https://docdro.id/E8pF5pB' target="_blank"><FontAwesomeIcon icon={faGithub} className='header-img' size="3x" /></a>
-                </div>
+                    {/* <a href='https://github.com/Calvinkim4' target="_blank"><FontAwesomeIcon icon={faFileInvoice} className='header-img'size="3x" /></a> */}
+                    {/* <a href='https://www.linkedin.com/in/calvinkim4/' target="_blank"><FontAwesomeIcon icon={faLinkedin} className='header-img' size="3x" /></a> */}
+                    {/* <a href='https://docdro.id/E8pF5pB' target="_blank"><FontAwesomeIcon icon={faGithub} className='header-img' size="3x" /></a> */}
+                {/* </div> */}
             </div>
         )
     }
