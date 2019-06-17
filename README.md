@@ -2,4 +2,4 @@
 
 # Technologies
 
-HTML/CSS, React, Canvas
+HTML/CSS, React, Fontawesome, react-chartjs-2

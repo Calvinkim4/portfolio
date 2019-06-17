@@ -15,7 +15,7 @@ class Skills extends Component {
                 labels: ['Java', 'Javascript', 'HTML/CSS', 'React', 'SQL', 'Sequelize', 'Express', 'Ruby On Rails'],
                 datasets: [{
                     label: 'Skill Level',
-                    data: [9, 8, 7, 9, 6, 7, 7, 5],
+                    data: [10, 9, 9, 10, 7, 7, 8.5, 5],
                     backgroundColor: ['#eafc40', 'rgba(0, 0, 0, 1)', 'rgba(0, 0, 0, 1)', '#eafc40', 'rgba(0, 0, 0, 1)', 'rgba(0, 0, 0, 1)', 'rgba(0, 0, 0, 1)', 'rgba(0, 0, 0, 1)']
                 }]
             },

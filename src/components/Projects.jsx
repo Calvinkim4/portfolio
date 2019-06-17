@@ -18,6 +18,9 @@ class Header extends Component {
                     {/* <h2 className='project-name'>Made2Fit</h2> */}
                     {/* <h3 className='project-desc'>A clothing store that saves user's measurements</h3> */}
                     <a href='https://epic-jones-4619fa.netlify.com/'><img className='project-image' src='https://user-images.githubusercontent.com/10161700/59555355-cd07c300-8f7e-11e9-97bb-681116c446c8.png' alt='made2fit' /></a>
+                    <a href='https://calvinkim4.github.io/high-card/'><img className='project-image' src='https://user-images.githubusercontent.com/10161700/59621767-f69b2880-90fd-11e9-99d0-1c1163caa1ba.png' alt='high card' /></a>
+                    <a href='https://calvinkim4.github.io/tic-tac-toe/'><img className='project-image' src='https://user-images.githubusercontent.com/10161700/59622832-af626700-9100-11e9-90ff-2b03c7645d93.png' alt='tic tac toe' /></a>
+                    <a href='https://calvinkim4.github.io/pixart/'><img className='project-image' src='https://user-images.githubusercontent.com/10161700/59624156-0584d980-9104-11e9-9703-073386851bf8.png' alt='pixart' /></a>
                 </div>
                 
             </div>

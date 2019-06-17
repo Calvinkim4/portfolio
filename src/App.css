@@ -117,7 +117,7 @@ li > a:hover {
 
 .fixed-links-div {
   position: sticky;
-  z-index: 1;
+  z-index: 2;
   float: left;
   top: 35%;
   left: 0;
@@ -312,6 +312,9 @@ textarea:focus {
   font-weight: normal;
   width: 80%;
   margin: 0 auto;
+  display: list-item;
+  list-style-type: disc;
+  list-style-position: inside;
 }
 
 span {
@@ -388,7 +391,7 @@ span {
 	}
 }
 
-@media only screen and (max-width: 600px) {
+@media only screen and (min-device-width: 300px) and (max-device-width: 667px)  {
   .portfolio-title {
     font-size: 100px;
   }
@@ -396,4 +399,30 @@ span {
 
 .needed-margin {
   margin-top: 40px;
+}
+
+.exp-container {
+  display: flex;
+  text-align: left;
+  width: 90%;
+  margin: 0 auto;
+}
+
+@media only screen and (min-device-width: 300px) and (max-device-width: 667px)  {
+  .exp-container {
+    display: block;
+    text-align: center;
+    width: 90%;
+    margin: 0 auto;
+  }
+}
+
+.exp-div {
+  width: 50%;
+}
+
+@media only screen and (min-device-width: 300px) and (max-device-width: 667px)  {
+  .exp-div {
+    width: 100%;
+  }
 }
