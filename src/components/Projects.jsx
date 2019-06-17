@@ -6,6 +6,7 @@ class Header extends Component {
             <div id="projects" className='container-div'>
                 <h1 className='component-title'>Projects</h1>
                 <div className='project-container'>
+                    <a href='http://haggle-app.surge.sh/'><img className='project-image' src='https://user-images.githubusercontent.com/10161700/59198522-edd8ae80-8b61-11e9-96f0-00425e7eda0c.png' alt='haggle' /></a>
                     {/* <h2 className='project-name'>Real Life</h2> */}
                     {/* <h3 className='project-desc'>Description: Multiplayer game where each player is in a different economic class. Each turn is an opportunity to make or lose money</h3> */}
                     <a href='https://calvinkim4.github.io/Real-Life/'><img className='project-image' src='https://raw.githubusercontent.com/Calvinkim4/Real-Life/master/screenshot.png' alt='real life' /></a>
