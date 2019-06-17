@@ -3,7 +3,7 @@ import React, { Component } from 'react';
 class Header extends Component {
     render() {
         return(
-            <div className='container-div'>
+            <div id="projects" className='container-div'>
                 <h1 className='component-title'>Projects</h1>
                 <div className='project-container'>
                     {/* <h2 className='project-name'>Real Life</h2> */}

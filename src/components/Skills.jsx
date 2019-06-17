@@ -35,7 +35,7 @@ class Skills extends Component {
     }
     render() {
         return (
-            <div className='container-div'>
+            <div id="skills" className='container-div'>
                 <h1 className='component-title'>Skills</h1>
                 <div className='bar-container'>
                     <Bar data={this.state.data} options={this.state.options} />
