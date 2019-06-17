@@ -8,25 +8,35 @@ import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { faGithub } from '@fortawesome/free-brands-svg-icons';
 import { faLinkedin } from '@fortawesome/free-brands-svg-icons';
 import { faFileInvoice } from '@fortawesome/free-solid-svg-icons';
+import Skills from './components/Skills';
+import Experience from './components/Experience';
+import Intro from './components/Intro';
 
 function App() {
   return (
     <div className="App">
-      <Header />
+      {/* <Header /> */}
+      <Intro />
       <nav className='nav-bar'>
         <li><a href="#About">About</a></li>
+        <li><a href="#Skills">Skills</a></li>
+        <li><a href="#Experiences">Experiences</a></li>
         <li><a href="#Projects">Projects</a></li>
         <li><a href="#Contact">Contact</a></li>
       </nav>
+
+      <div className='fixed-links-div'>
+        <a href='https://github.com/Calvinkim4' target="_blank"><FontAwesomeIcon icon={faGithub} className='fixed-links'size="3x" /></a>
+        <a href='https://www.linkedin.com/in/calvinkim4/' target="_blank"><FontAwesomeIcon icon={faLinkedin} className='fixed-links' size="3x" /></a>
+        <a href='https://docdro.id/E8pF5pB' target="_blank"><FontAwesomeIcon icon={faFileInvoice} className='fixed-links' size="3x" /></a>
+      </div>
+
       <a id="About"><About /></a>
+      <a id="Skills"><Skills /></a>
+      <a id="Experiences"><Experience /></a>
       <a id="Projects"><Projects /></a>
       <a id="Contact"><Contact /></a>
 
-      <div className='fixed-links-div'>
-        <a href='https://github.com/Calvinkim4' target="_blank"><FontAwesomeIcon icon={faFileInvoice} className='fixed-links'size="3x" /></a>
-        <a href='https://www.linkedin.com/in/calvinkim4/' target="_blank"><FontAwesomeIcon icon={faLinkedin} className='fixed-links' size="3x" /></a>
-        <a href='https://docdro.id/E8pF5pB' target="_blank"><FontAwesomeIcon icon={faGithub} className='fixed-links' size="3x" /></a>
-      </div>
       {/* <About /> */}
       {/* <Contact /> */}
       {/* <Projects /> */}

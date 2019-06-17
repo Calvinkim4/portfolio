@@ -22,8 +22,8 @@ class Contact extends Component {
     render() {
 
         return(
-            <div className='contact-div'>
-                <h1>Contact</h1>
+            <div className='contact-div container-div'>
+                <h1 className='component-title'>Contact</h1>
                 <input type="text" name="mail" onChange={this.handleTextInput} placeholder='Email'/>
                 <input type="text" name="subject" onChange={this.handleTextInput} placeholder='Subject'/>
                 <textarea className='input-content' type="text" name="body" onChange={this.handleTextInput} placeholder='Content'/>
