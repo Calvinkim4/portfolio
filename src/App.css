@@ -426,3 +426,13 @@ span {
     width: 100%;
   }
 }
+
+.about-title {
+  padding-right: 100px;
+}
+
+@media only screen and (min-device-width: 300px) and (max-device-width: 667px)  {
+  .about-title {
+    padding-right: 0;
+  }
+}
