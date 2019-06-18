@@ -37,6 +37,7 @@ body {
   background-color: black;
   position: sticky;
   top: 0;
+  z-index: 5;
 }
 
 @media only screen and (min-device-width: 300px) and (max-device-width: 667px)  {
@@ -117,7 +118,6 @@ li > a:hover {
 
 .fixed-links-div {
   position: sticky;
-  z-index: 2;
   float: left;
   top: 35%;
   left: 0;
@@ -125,6 +125,7 @@ li > a:hover {
   background-color: #eafc40;
   border-radius: 0 5px 5px 0;
   border: 2px solid black;
+  box-shadow: 8px 8px 10px -3px rgba(0, 0, 0, .8);
 }
 
 @media only screen and (min-device-width: 300px) and (max-device-width: 667px)  {
@@ -192,6 +193,10 @@ li > a:hover {
   margin: 0;
 }
 
+.indiv-container {
+  position: relative;
+}
+
 .project-container {
   display: flex;
   flex-wrap: wrap;
@@ -200,7 +205,7 @@ li > a:hover {
 }
 
 .project-container > a {
-  width: 48%;
+  width: 31%;
   margin: 10px;
 }
 
@@ -213,12 +218,42 @@ li > a:hover {
 .project-image {
   width: 100%;
   height: auto;
-  border: 3px solid black;
-  border-radius: 10px;
+  /* border: 1px solid black; */
+  border-radius: 5px;
+  box-shadow: 8px 8px 10px -3px rgba(0, 0, 0, .8);
+}
+
+.project-desc {
+  position: absolute;
+  bottom: 0;
+  top: 0;
+  left: 0;
+  right: 0;
+  visibility: hidden;
+  opacity: 0;
+  background-color: rgba(0, 0, 0, .8);
+  border-radius: 5px;
 }
 
 .project-name {
-  font-size: 30px;
+  font-size: 40px;
+  color: white;
+  margin: 5px;
+}
+
+.project-name2 {
+  font-size: 20px;
+  color: white;
+  margin: 5px;
+}
+
+/* .indiv-container:hover {
+  opacity: .4;
+} */
+
+.indiv-container:hover .project-desc {
+  visibility: visible;
+  opacity: 1;
 }
 
 .project-desc {
@@ -234,6 +269,7 @@ input {
   font-size: 30px;
   text-align: center;
   border-radius: 5px;
+  box-shadow: 8px 8px 10px -3px rgba(0, 0, 0, .8);
 }
 
 @media only screen and (min-device-width: 300px) and (max-device-width: 667px)  {
@@ -252,6 +288,7 @@ input {
   margin: 20px auto;
   resize: none;
   border-radius: 5px;
+  box-shadow: 8px 8px 10px -3px rgba(0, 0, 0, .8);
 }
 
 @media only screen and (min-device-width: 300px) and (max-device-width: 667px)  {
@@ -273,6 +310,8 @@ input {
   display: block;
   margin: 0 auto;
   background-color: white;
+  box-shadow: 8px 8px 10px -3px rgba(0, 0, 0, .8);
+  transition: all .3s ease-in-out;
 }
 
 .input-button:focus {
@@ -282,6 +321,7 @@ input {
 .input-button:hover {
   background-color: black;
   color: white;
+  transform: scale(1.3);
 }
 
 input:focus {

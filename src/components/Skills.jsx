@@ -1,6 +1,7 @@
 import React, { Component } from 'react';
 import { Bar } from 'react-chartjs-2';
 import { defaults } from 'react-chartjs-2';
+import ScrollAnimation from 'react-animate-on-scroll';
 
 defaults.global.defaultColor = 'black';
 defaults.global.defaultFontColor = 'black';
@@ -35,13 +36,15 @@ class Skills extends Component {
     }
     render() {
         return (
-            <div id="skills" className='container-div'>
-                <h1 className='component-title'>Skills</h1>
-                <div className='bar-container'>
-                    <Bar data={this.state.data} options={this.state.options} />
+            <ScrollAnimation animateIn="slideInRight" animateOut='slideOutRight' duration='.7'>
+                <div id="skills" className='container-div'>
+                    <h1 className='component-title'>Skills</h1>
+                    <div className='bar-container'>
+                        <Bar data={this.state.data} options={this.state.options} />
+                    </div>
                 </div>
-                
-            </div>
+            </ScrollAnimation>
+            
         )
     }
 }

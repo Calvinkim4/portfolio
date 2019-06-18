@@ -1,4 +1,5 @@
 import React, { Component } from 'react';
+import ScrollAnimation from 'react-animate-on-scroll';
 
 class Contact extends Component {
     constructor() {
@@ -22,14 +23,16 @@ class Contact extends Component {
     render() {
 
         return(
-            <div id="contact" className='contact-div container-div'>
-                <h1 className='component-title'>Contact</h1>
-                <input type="text" name="mail" onChange={this.handleTextInput} placeholder='Email'/>
-                <input type="text" name="subject" onChange={this.handleTextInput} placeholder='Subject'/>
-                <textarea className='input-content' type="text" name="body" onChange={this.handleTextInput} placeholder='Content'/>
-                <a className='input-button' href={`mailto:calvinkim4@gmail.com?cc=${this.state.mail}&subject=${this.state.subject}&body=${this.state.body}`}>Send</a>
-
-            </div>
+            <ScrollAnimation animateIn="slideInRight" animateOut='slideOutRight' duration='.7'>
+                <div id="contact" className='contact-div container-div'>
+                    <h1 className='component-title'>Contact</h1>
+                    <input type="text" name="mail" onChange={this.handleTextInput} placeholder='Email'/>
+                    <input type="text" name="subject" onChange={this.handleTextInput} placeholder='Subject'/>
+                    <textarea className='input-content' type="text" name="body" onChange={this.handleTextInput} placeholder='Content'/>
+                    <a className='input-button' href={`mailto:calvinkim4@gmail.com?cc=${this.state.mail}&subject=${this.state.subject}&body=${this.state.body}`}>Send</a>
+                </div>
+            </ScrollAnimation>
+            
         )
     }
 }
