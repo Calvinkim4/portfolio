@@ -8,7 +8,6 @@ import { faGithub } from '@fortawesome/free-brands-svg-icons';
 import { faLinkedin } from '@fortawesome/free-brands-svg-icons';
 import { faFileInvoice } from '@fortawesome/free-solid-svg-icons';
 import Skills from './components/Skills';
-import Experience from './components/Experience';
 import Intro from './components/Intro';
 
 function App() {
@@ -18,7 +17,6 @@ function App() {
       <nav className='nav-bar'>
         <li><a href="#about">About</a></li>
         <li><a href="#skills">Skills</a></li>
-        <li><a href="#experiences">Experiences</a></li>
         <li><a href="#projects">Projects</a></li>
         <li><a href="#contact">Contact</a></li>
       </nav>
@@ -31,8 +29,7 @@ function App() {
 
       <About />
       <Skills />
-      <Experience />
-      <Projects />
+`     <Projects />
       <Contact />
     </div>
   );

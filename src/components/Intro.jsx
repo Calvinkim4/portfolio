@@ -4,7 +4,11 @@ class Intro extends Component {
     render() {
         return (
             <div className='intro-div'>
-                <h1 className='portfolio-title'>Calvin Kim's Portfolio</h1>
+                <div className='portfolio-title'>
+                    <h1>Calvin Kim</h1>
+                    <h1>Software Engineer</h1>
+                </div>
+
             </div>
         )
     }
