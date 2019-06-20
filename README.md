@@ -2,4 +2,4 @@
 
 # Technologies
 
-HTML/CSS, React, Fontawesome, react-chartjs-2
+HTML/CSS, React, Fontawesome, Devicon
