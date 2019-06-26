@@ -22,15 +22,15 @@ function App() {
       </nav>
 
       <div className='fixed-links-div'>
-        <a href='https://github.com/Calvinkim4' rel="noopener noreferrer" target="_blank"><FontAwesomeIcon icon={faGithub} className='fixed-links'size="3x" /></a>
-        <a href='https://www.linkedin.com/in/calvinkim4/' rel="noopener noreferrer" target="_blank"><FontAwesomeIcon icon={faLinkedin} className='fixed-links' size="3x" /></a>
-        <a href='https://docdro.id/E8pF5pB' rel="noopener noreferrer" target="_blank"><FontAwesomeIcon icon={faFileInvoice} className='fixed-links' size="3x" /></a>
+        <a href='https://github.com/Calvinkim4' rel="noopener noreferrer" target="_blank"><FontAwesomeIcon icon={faGithub} className='fixed-links'/></a>
+        <a href='https://www.linkedin.com/in/calvinkim4/' rel="noopener noreferrer" target="_blank"><FontAwesomeIcon icon={faLinkedin} className='fixed-links'/></a>
+        <a href='https://docdro.id/E8pF5pB' rel="noopener noreferrer" target="_blank"><FontAwesomeIcon icon={faFileInvoice} className='fixed-links'/></a>
       </div>
 
       <About />
-      {/* <Skills /> */}
+      <Skills />
 `     <Projects />
-      {/* <Contact /> */}
+      <Contact />
     </div>
   );
 }
