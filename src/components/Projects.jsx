@@ -57,7 +57,7 @@ class Header extends Component {
                         </div>
                     </a>
                     <a href='https://calvinkim4.github.io/pixart/' className='indiv-container'>
-                        <img className='project-image' src='https://user-images.githubusercontent.com/10161700/59624156-0584d980-9104-11e9-9703-073386851bf8.png' alt='pixart' />
+                        <img className='project-image' src='https://user-images.githubusercontent.com/10161700/59949315-bd85ef80-9440-11e9-8044-630aa269fa1f.png' alt='pixart' />
                         <div className='project-desc'>
                             <h2 className='project-name'>Pixart</h2>
                             <h3 className='project-name2'>Description: Application for drawing pixart</h3>

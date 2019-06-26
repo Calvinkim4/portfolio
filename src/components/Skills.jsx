@@ -12,19 +12,19 @@ class Skills extends Component {
             <div id="skills" className='container-div'>
                 <h1 className='component-title'>Skills</h1>
                 <div className='bar-container'>
-                <i class="devicon-java-plain-wordmark colored icons"></i>
-                <i class="devicon-html5-plain-wordmark colored icons"></i>
-                <i class="devicon-css3-plain-wordmark colored icons"></i>
-                <i class="devicon-javascript-plain colored icons"></i>
-                <i class="devicon-react-original-wordmark colored icons"></i>
-                <i class="devicon-sequelize-plain-wordmark colored icons"></i>
-                <i class="devicon-express-original-wordmark colored icons"></i>
-                <i class="devicon-postgresql-plain-wordmark colored icons"></i>
-                <i class="devicon-nodejs-plain-wordmark colored icons"></i>
-                <i class="devicon-rails-plain-wordmark colored icons"></i>
-                <i class="devicon-git-plain-wordmark colored icons"></i>
-                <i class="devicon-github-plain-wordmark colored icons"></i>
-                <i class="devicon-bitbucket-plain-wordmark colored icons"></i>
+                <i className="devicon-java-plain-wordmark colored icons"></i>
+                <i className="devicon-html5-plain-wordmark colored icons"></i>
+                <i className="devicon-css3-plain-wordmark colored icons"></i>
+                <i className="devicon-javascript-plain colored icons"></i>
+                <i className="devicon-react-original-wordmark colored icons"></i>
+                <i className="devicon-sequelize-plain-wordmark colored icons"></i>
+                <i className="devicon-express-original-wordmark colored icons"></i>
+                <i className="devicon-postgresql-plain-wordmark colored icons"></i>
+                <i className="devicon-nodejs-plain-wordmark colored icons"></i>
+                <i className="devicon-rails-plain-wordmark colored icons"></i>
+                <i className="devicon-git-plain-wordmark colored icons"></i>
+                <i className="devicon-github-plain-wordmark colored icons"></i>
+                <i className="devicon-bitbucket-plain-wordmark colored icons"></i>
                 </div>
             </div>
             

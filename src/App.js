@@ -8,7 +8,7 @@ import { faGithub } from '@fortawesome/free-brands-svg-icons';
 import { faLinkedin } from '@fortawesome/free-brands-svg-icons';
 import { faFileInvoice } from '@fortawesome/free-solid-svg-icons';
 import Skills from './components/Skills';
-import Intro from './components/Intro';
+import Intro from './components/Intro/Intro';
 
 function App() {
   return (
@@ -28,9 +28,9 @@ function App() {
       </div>
 
       <About />
-      <Skills />
+      {/* <Skills /> */}
 `     <Projects />
-      <Contact />
+      {/* <Contact /> */}
     </div>
   );
 }
