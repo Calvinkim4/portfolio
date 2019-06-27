@@ -7,7 +7,7 @@ import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { faGithub } from '@fortawesome/free-brands-svg-icons';
 import { faLinkedin } from '@fortawesome/free-brands-svg-icons';
 import { faFileInvoice } from '@fortawesome/free-solid-svg-icons';
-import Skills from './components/Skills';
+import Skills from './components/Skills/Skills';
 import Intro from './components/Intro/Intro';
 
 function App() {

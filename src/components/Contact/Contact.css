@@ -20,7 +20,7 @@
     box-shadow: 8px 8px 10px -3px rgba(0, 0, 0, .8);
   }
   
-  @media only screen and (min-width: 200px) and (max-width: 667px)  {
+  @media only screen and (max-width: 500px)  {
     input{
       width: 90%;
     }
@@ -39,7 +39,7 @@
     box-shadow: 8px 8px 10px -3px rgba(0, 0, 0, .8);
   }
   
-  @media only screen and (min-width: 200px) and (max-width: 667px)  {
+  @media only screen and (max-width: 500px)  {
     .input-content {
       width: 90%;
     }
