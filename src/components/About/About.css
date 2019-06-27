@@ -1,0 +1,40 @@
+.about-title {
+    padding-right: 100px;
+  }
+  
+  @media only screen and (max-width: 900px)  {
+    .about-title {
+      padding-right: 0;
+    }
+  }
+
+  .about-desc {
+    width: 80%;
+    font-size: 30px;
+    margin: 0 auto;
+    line-height: 2em;
+  }
+
+  @media only screen and (max-width: 1200px)  {
+    .about-desc {
+        font-size: 25px;
+      }
+  }
+
+  @media only screen and (max-width: 900px)  {
+    .about-desc {
+        font-size: 23px;
+      }
+  }
+
+  @media only screen and (max-width: 600px)  {
+    .about-desc {
+        font-size: 20px;
+      }
+  }
+
+  @media only screen and (max-width: 400px)  {
+    .about-desc {
+        font-size: 18px;
+      }
+  }
