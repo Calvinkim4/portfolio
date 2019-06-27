@@ -113,7 +113,7 @@ li > a:hover {
 
 @media only screen and (max-width: 1200px)  {
   .container-div {
-    padding-top: 100px;
+    padding-top: 123px;
   }
 }
 
@@ -143,92 +143,6 @@ li > a:hover {
   .component-title {
     font-size: 50px;
   }
-}
-
-.contact-btn {
-  padding: 0;
-}
-
-.contact-icon {
-  height: 100%;
-  width: 100%;
-  margin: 0;
-}
-
-input {
-  display: block;
-  width: 400px;
-  height: 50px;
-  margin: 20px auto;
-  font-family: 'Teko', sans-serif;
-  font-size: 30px;
-  text-align: center;
-  border-radius: 5px;
-  box-shadow: 8px 8px 10px -3px rgba(0, 0, 0, .8);
-}
-
-@media only screen and (min-width: 300px) and (max-width: 667px)  {
-  input{
-    width: 90%;
-  }
-}
-
-.input-content {
-  height: 300px;
-  display: block;
-  font-family: 'Teko', sans-serif;
-  font-size: 30px;
-  text-align: center;
-  width: 400px;
-  margin: 20px auto;
-  resize: none;
-  border-radius: 5px;
-  box-shadow: 8px 8px 10px -3px rgba(0, 0, 0, .8);
-}
-
-@media only screen and (min-width: 300px) and (max-width: 667px)  {
-  .input-content {
-    width: 90%;
-  }
-}
-
-.input-button {
-  width: 100px;
-  height: 50px;
-  border: 1px solid black;
-  border-radius: 5px;
-  text-decoration: none;
-  color: black;
-  font-size: 30px;
-  line-height: 55px;
-  font-family: 'Teko', sans-serif;
-  display: block;
-  margin: 0 auto;
-  background-color: white;
-  box-shadow: 8px 8px 10px -3px rgba(0, 0, 0, .8);
-  transition: all .3s ease-in-out;
-}
-
-.input-button:focus {
-  outline: none;
-}
-
-.input-button:hover {
-  background-color: black;
-  color: white;
-  transform: scale(1.3);
-}
-
-input:focus {
-  outline: none;
-}
-
-textarea:focus {
-  outline: none;
-}
-
-.contact-div {
-  margin-bottom: 100px;
 }
 
 .bar-container {

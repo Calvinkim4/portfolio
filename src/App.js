@@ -1,7 +1,7 @@
 import React from 'react';
 import './App.css';
 import About from './components/About/About';
-import Contact from './components/Contact';
+import Contact from './components/Contact/Contact';
 import Projects from './components/Projects/Projects';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { faGithub } from '@fortawesome/free-brands-svg-icons';
