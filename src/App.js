@@ -2,7 +2,7 @@ import React from 'react';
 import './App.css';
 import About from './components/About/About';
 import Contact from './components/Contact';
-import Projects from './components/Projects';
+import Projects from './components/Projects/Projects';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { faGithub } from '@fortawesome/free-brands-svg-icons';
 import { faLinkedin } from '@fortawesome/free-brands-svg-icons';
